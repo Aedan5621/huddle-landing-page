@@ -1,9 +1,8 @@
 body {
   margin: 0;
   background-image: url(../images/bg-desktop.svg);
-  background-size: auto;
+  background-size: 1340px 900px;
   background-repeat: no-repeat;
-
   background-color: hsl(257, 40%, 49%);
   height: 100vh;
   overflow: hidden;
@@ -76,4 +75,8 @@ footer {
   background-color: hsl(300, 69%, 71%);
   color: #fff;
   border-color: hsl(300, 69%, 71%);
+}
+
+a {
+  margin: 0 5px;
 }
