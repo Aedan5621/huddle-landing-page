@@ -80,3 +80,49 @@ footer {
 a {
   margin: 0 5px;
 }
+
+@media (min-width: 375px) and (max-width: 768px) {
+  body {
+    text-align: center;
+    background-image: url(../images/bg-mobile.svg);
+    background-size: contain;
+  }
+
+.logo {
+  width: 60%;
+}
+
+.brand-name {
+  position: absolute;
+  top: 20px;
+  left: -15px;
+}
+
+.grid-container {
+  grid-template-columns: 1fr;
+  
+}
+
+.components {
+  padding: 25px 20px;
+  position: absolute;
+  top: 100px;
+
+}
+
+.mockups {
+  width: 87%;
+}
+
+.text-components {
+  line-height: 1.5;
+  padding: 30px 15px;
+}
+
+footer {
+  position: absolute;
+  bottom: 35px;
+  right: 110px;
+}
+
+}
