@@ -119,10 +119,15 @@ a {
   padding: 30px 15px;
 }
 
+.footer-wrap {
+  width:100%;
+  position:fixed;
+  bottom: 50px;
+}
+
 footer {
-  position: absolute;
-  bottom: 35px;
-  right: 110px;
+  position: static;
+  
 }
 
 }
